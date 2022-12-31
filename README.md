@@ -14,6 +14,7 @@ To use the Task.WhenAll method with MEF, you will need to create a class that re
 
 Here is an example of how you can use the Task.WhenAll method with MEF to run tasks:
 
+<code>
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Threading.Tasks;
@@ -54,3 +55,4 @@ public class MyClass
         // ...
     }
 }
+</code>
